@@ -11,7 +11,8 @@ ask(
 
 let ask_ = (question, yes, no) => {
     if (confirm(question)) yes()
-    else no();
+    else no();  
+    
 }
   
 ask_(
