@@ -16,9 +16,23 @@ function checkAgeOr(age) {
     return (age >= 18) || confirm('Родители разрешили?');
 }
 
-let age = +prompt('Введите возраст',18);
+function getMin(a,b){
+    return ( a < b) ?a:b;
+}
 
+function getPow(a,b){
+    return a ** b;
+}
+
+let age = +prompt('Введите возраст',18);
 alert(checkAgeOr(age));
+
+let number1 = +prompt('Введите число',0);
+let number2 = +prompt('Введите число',0);
+
+
+alert(getPow(number1,number2));
+
 
 
 
