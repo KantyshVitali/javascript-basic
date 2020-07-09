@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let browser = prompt('input your browser','Edge'); 
 
