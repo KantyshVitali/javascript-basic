@@ -1,7 +1,7 @@
 'use strict';
 
 let checkSpam = function(str) {
-    lowerStr = str.toLowerCase(); 
+    let lowerStr = str.toLowerCase(); 
 
     return lowerStr.includes('viagra') || lowerStr.includes('xxx');
 }; 
