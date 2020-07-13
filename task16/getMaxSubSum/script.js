@@ -7,9 +7,9 @@ let getMaxSubSum = function(arr) {
     for (let item of arr) { 
         partialSum += item; 
         maxSum = Math.max(maxSum, partialSum); 
-    if (partialSum < 0) {
-        partialSum = 0; 
-    } 
+        if (partialSum < 0) {
+            partialSum = 0; 
+        } 
   }
     return maxSum;
 };  
@@ -17,7 +17,7 @@ let getMaxSubSum = function(arr) {
 
 
 
-alert( getMaxSubSum([-1, 2, 3, -9]) );  
+чalert( getMaxSubSum([-1, 2, 3, -9]) );  
 alert( getMaxSubSum([2, -1, 2, 3, -9]) );
 alert( getMaxSubSum([-1, 2, 3, -9, 11]) );
 alert( getMaxSubSum([-2, -1, 1, 2]) );
