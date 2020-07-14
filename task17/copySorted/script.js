@@ -1,15 +1,7 @@
 'use strict';
 
 let copySorted = function(arr) {
-    let sortedArr = [];
-
-    for(let element of arr) {
-        sortedArr.push(element);
-    }
-
-    sortedArr.sort();
-
-    return sortedArr;
+   return arr.slice().sort();
 };
 
 let arr = ["HTML", "JavaScript", "CSS"];
