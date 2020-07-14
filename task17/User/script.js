@@ -6,7 +6,7 @@ let usersToNames = function (arr) {
     for(let obj of arr) {
         names.push(obj.name);
     }
-        
+
     return names;
 }
 
@@ -17,5 +17,7 @@ let masha = { name: "Маша", age: 28 };
 let users = [ vasya, petya, masha ];
 
 let names = usersToNames(users);
+let names2 = users.map(item => item.name);
 
-alert( names ); // Вася, Петя, Маша
+alert( names2 ); 
+alert( names ); 
