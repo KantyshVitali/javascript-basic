@@ -8,6 +8,8 @@ let aclean = function(arr) {
     
     map.set(sorted, word);
   }
+
+  return Array.from(map.values());
 };
 
 let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
